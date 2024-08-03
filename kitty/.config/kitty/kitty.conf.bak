@@ -1,0 +1,13 @@
+map cmd+c        copy_to_clipboard
+map cmd+v        paste_from_clipboard
+map shift+insert paste_from_clipboard
+
+copy_on_select yes
+
+mouse_map ctrl+left press ungrabbed,grabbed mouse_click_url
+
+macos_option_as_alt yes
+
+
+
+
