@@ -8,7 +8,3 @@ set number
 set autoindent
 
 syntax on
-
-inoremap { {}<Esc>ha
-inoremap [ []<Esc>ha
-inoremap ( ()<Esc>ha

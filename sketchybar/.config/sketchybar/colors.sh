@@ -2,10 +2,22 @@
 
 export WHITE=0xffffffff
 
+# -- CyberPunk wall colors --
+#000000 - black
+#424153 - gray
+#333399 - intense blue / purple
+#999999 - light gray
+#66cccc - light blue
+
+# -- CyberPunk wall theme --
+export BAR_COLOR=0x60333399
+#export ITEM_BG_COLOR=0x00000000
+export ACCENT_COLOR=0xff999999
+
 # -- Teal Scheme --
-export BAR_COLOR=0xff001f30
-export ITEM_BG_COLOR=0xff003547
-export ACCENT_COLOR=0xff2cf9ed
+#export BAR_COLOR=0xff001f30
+#export ITEM_BG_COLOR=0xff003547
+#export ACCENT_COLOR=0xff2cf9ed
 
 # -- Gray Scheme --
 # export BAR_COLOR=0xff101314
