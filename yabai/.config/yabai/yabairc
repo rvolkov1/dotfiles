@@ -22,7 +22,7 @@ yabai -m config mouse_action1 move
 yabai -m config mouse_action2 resize
 
 # account for menubar
-yabai -m config external_bar all:30:0
+yabai -m config external_bar all:28:0
 
 # when window is dropped in center of another window, swap them (on edges it will split it)
 yabai -m mouse_drop_action swap
