@@ -11,6 +11,9 @@ yabai -m config left_padding 4
 yabai -m config right_padding 4
 yabai -m config window_gap 4
 
+yabai -m space --focus prev        # move left
+yabai -m space --focus next        # move right
+
 # center mouse on window with focus
 yabai -m config mouse_follows_focus on
 
@@ -32,3 +35,7 @@ yabai -m rule --add app="^System Preferences$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add app="^Karabiner-Elements$" manage=off
 yabai -m rule --add app="^Messages$" manage=off
+yabai -m rule --add app="^Cisco Secure Client$" manage=off
+yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add app="^Preview$" manage=off
+yabai -m rule --add app="^python(.+)$" manage=off
